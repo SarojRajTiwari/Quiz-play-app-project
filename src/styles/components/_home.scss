@@ -1,0 +1,78 @@
+#home{
+    background-color: blueviolet;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+
+
+    section{
+        background-color: rgba(0,0,0,0.5);
+        height: 80%;
+        width:35%;
+        padding-left: 2rem;
+        padding-right: 2rem ;
+        border-radius: 5px;
+        margin-top :60px;
+    }
+     .Cube {
+    font-size: 8rem;
+    color: chocolate;
+    text-align: center;
+     }
+    h1{
+        text-align: center;
+        color: beige;
+        font-size: larger;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        padding-bottom: 10%;
+    }
+    .play-button-container{
+        width: 100%;
+ }
+
+ a.play-button{
+        background-color:#57b846;
+        color:#fff;
+        cursor: pointer;
+        padding:1rem;
+        display: block;
+        border-radius: 30px;
+        text-align: center;
+        transition: 0.3s linear all;
+        text-decoration: none;
+ }
+
+    a.play-button:hover{
+        background-color: darkgreen;
+    }
+
+    .auth-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    #login-button{
+        background-color: crimson;
+    
+    }
+    #login-button:hover{
+        background-color: darkred;
+    }
+
+    .auth-container .auth-button{
+        color: cornsilk;
+        cursor: pointer;
+        border-radius: 30px;
+        padding: 1rem 0;
+        text-align: center;
+        width:45%;
+        transition: 0.3s linear all;
+        text-decoration: none;
+
+    }
+}

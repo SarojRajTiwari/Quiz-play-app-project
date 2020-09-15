@@ -1,0 +1,63 @@
+.NextStep{
+    background-color: #009e00;
+    color:#fff;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.NextStep:hover{
+    background-color: green;
+}
+.NextStep[disabled]{
+    display: none;
+}
+
+.finalPage{
+    text-align: center;
+    width: auto;
+    
+    
+}
+.finalPage h1{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    color: #008416;
+    text-transform: none;
+    text-shadow: none;
+}
+
+
+.auth-c{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 35%;
+}
+#login-b{
+    background-color: blue;
+}
+#login-b:hover{
+    background-color: darkblue;
+}
+
+.auth-c .auth-b{
+    color: cornsilk;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 1rem 0;
+    text-align: center;
+    width:45%;
+    transition: 0.3s linear all;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+
