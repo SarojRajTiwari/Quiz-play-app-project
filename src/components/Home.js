@@ -20,7 +20,7 @@ const Home = () => (
     
     <div className="auth-container">
         <Link to ="/login" className="auth-button" id="login-button">LOGIN</Link>
-        <Link to ="/Register" className="auth-button" id="login-button">REGISTER</Link>
+        <Link to ="/Register" className="auth-button" id="login-b">REGISTER</Link>
     </div>
         </section>
     

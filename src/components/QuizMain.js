@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 
 
+
 import Question from './question/Question';
 import Answer from './answer/Answer';
 
+
 import './QuizMain.css';
 import {Link} from 'react-router-dom';
+
 
 
 
@@ -67,6 +70,9 @@ export default class Quiz extends Component {
         score: 0
     }
 
+    
+
+
     // the method that checks the correct answer
     checkAnswer = answer => {
         const { correctAnswers, step, score } = this.state;
@@ -118,6 +124,9 @@ export default class Quiz extends Component {
                         onClick={() => this.nextStep(step)}>Next</button>
                     </>) : (
                         <div className="finalPage">
+                            <div>
+                            <span className="mdi mdi-cube-outline Cube"></span>
+                               </div>
                             <h1>You have completed the quiz!</h1>
                             <p>Your score is: {score} of {Object.keys(quiestions).length}</p>
                             <p>Thank you! </p>
